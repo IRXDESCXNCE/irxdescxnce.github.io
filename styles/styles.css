@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Tenor-Sans;
+    src: url("/font/TenorSans-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-background {
+    filter: blur(2px);
+    display: flex;
+}
+
+a {
+    font-family: Tenor-Sans;
+}
